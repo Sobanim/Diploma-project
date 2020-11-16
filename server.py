@@ -47,7 +47,7 @@ class Server:
 
     def execute_work(self):
         print("Work!")
-        new_array = [[random.randint(0, 10) for x in range(3)] for y in range(3)]
+        new_array = [[random.randint(0, 10) for x in range(3)] for y in range(3)] # 300, 3 000, 30 000
         print(new_array)
         new_array2 = [[random.randint(0, 10) for x in range(3)] for y in range(3)]
         print(new_array2)
